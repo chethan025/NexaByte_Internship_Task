@@ -27,6 +27,10 @@ body{
     
 }
 
+.nav[data-scroll="out"] {
+    transform: translatey(-100%);
+}
+
 [data-scroll-dir-y="-1"] .nav {
     transform: translatey(0);
 }
