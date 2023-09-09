@@ -1,0 +1,49 @@
+body{
+    color: #fff;
+    background-color: #cdd8e4;
+}
+
+.clctr{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    border: 0;
+    border-radius: 20px;
+
+}
+.btns{
+    background-color: black;
+    padding: 20px;
+    border: 0;
+    border-radius: 20px;
+}
+.dnf{
+    display: flex;
+    justify-content: flex-end;
+}
+input{
+    margin: 5px;
+    border: 0;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    color: #fff;
+
+}
+.ddl{
+    flex: 1;
+    box-shadow: none;
+    text-align: end;
+    font-size: 28px;
+}
+.oprt{
+    background-color: rgb(49, 15, 173);
+}
+.acc{
+    background-color: rgb(164, 40, 247);
+
+}

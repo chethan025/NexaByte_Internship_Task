@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    
+    <div class="clctr">
+        <form>
+        <!-- <input type="text" class="dspl" value+="8" > -->
+    
+        <div class="btns">
+            <div class="dnf">
+                <input type="text" name="dspl" class="ddl" placeholder="0">
+            </div>
+            <div class="bmn">
+                <input type="button" value="AC" class="oprt acc" onclick="dspl.value=''">
+                <input type="button" value="C" class="oprt" onclick="dspl.value=dspl.value.toString().slice(0,-1)">
+                <input type="button" value="%" class="oprt" onclick="dspl.value= eval(dspl.value)/100">
+                <input type="button" value="/" class="oprt" onclick="dspl.value+='/'">
+            </div>
+            <div class="bmn">
+                <input type="button" value="7" onclick="dspl.value+='7'">
+                <input type="button" value="8" onclick="dspl.value+='8'">
+                <input type="button" value="9" onclick="dspl.value+='9'">
+                <input type="button" value="*" class="oprt" onclick="dspl.value+='*'">
+            </div>
+            <div class="bmn">
+                <input type="button" value="4" onclick="dspl.value+='4'">
+                <input type="button" value="5" onclick="dspl.value+='5'">
+                <input type="button" value="6" onclick="dspl.value+='6'">
+                <input type="button" value="-" class="oprt" onclick="dspl.value+='-'">
+            </div>
+            <div class="bmn">
+                <input type="button" value="1" onclick="dspl.value+='1'">
+                <input type="button" value="2" onclick="dspl.value+='2'">
+                <input type="button" value="3" onclick="dspl.value+='3'">
+                <input type="button" value="+" class="oprt" onclick="dspl.value+='+'">
+            </div>
+            <div class="bmn">
+                <input type="button" value="0" onclick="dspl.value+='0'">
+                <input type="button" value="00" onclick="dspl.value+='00'">
+                <input type="button" value="." onclick="dspl.value+='.'">
+                <input type="button" value="=" class="oprt acc" onclick="dspl.value=eval(dspl.value)">
+            </div>
+        </div>
+    </form>
+      </div>
+    
+</body>
+</html>
